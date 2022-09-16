@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @SpringBootApplication
 public class JenkinsTestApplication {
 
-    @GetMapping("/ping")JKKLòOPKKJNJKO
+    @GetMapping("/ping")
     public String message() {
         return "Wao!! Application Deployed successfully in SAP Cloud..";
     }
