@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class JenkinsTestApplicationTests {
 
     @Test
-   public void contextLoads() {
+   public  contextLoads() {
         log.info("Test in esecuzione");
         assertEquals(true,true);
     }
